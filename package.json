@@ -1,0 +1,46 @@
+{
+  "name": "webmentions",
+  "author": "Glenn Jones",
+  "version": "0.0.1",
+  "description": "An API of helper function for providing and consuming webmentions",
+  "keywords": [
+    "webmention",
+    "microformat",
+    "h-entry",
+    "h-card",
+    "indieweb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/transmat/webmentions.git"
+  },
+  "main": "bin/webmentions.js",
+  "scripts": {
+    "test": "make test",
+    "start": "bin/webmentions.js"
+  },
+  "dependencies": {
+    "hapi": "2.x.x",
+    "handlebars": "1.0.x",
+    "hapi-swagger": "0.1.x",
+    "marked": "0.2.x",
+    "cheerio": "~0.13.1",
+    "request": "~2.33.0",
+    "charset": "0.0.1",
+    "buffer-concat": "0.0.1",
+    "iconv-lite": "~0.2.11",
+    "entities": "~0.3.0",
+    "microformat-node": "0.2.x",
+    "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-jshint": "0.1.1",
+    "grunt-mocha-test": "0.4.0",
+    "mocha": "1.10.0",
+    "chai": "1.6.0"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
