@@ -92,7 +92,7 @@ If the request is completed without error it should contain four top level prope
     1. `url` - the `source` URL passed in the options object
     2. `links` - all the links fron within the source page
     3. `entry` - the first [h-entry](http://microformats.org/wiki/h-entry) found in the source page
-    
+
 
 The response is returned in the following format:
 
@@ -167,7 +167,7 @@ The response is returned in the following format:
                 ],
                 "properties": {
                   "photo": [
-                    "/images/photo-small.png"
+                    "http://example.com/images/photo-small.png"
                   ],
                   "url": [
                     "https://twitter.com/example",
