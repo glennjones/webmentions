@@ -14,10 +14,9 @@
     "type": "git",
     "url": "http://github.com/transmat/webmentions.git"
   },
-  "main": "bin/webmentions.js",
+  "main": "index.js",
   "scripts": {
-    "test": "make test",
-    "start": "bin/webmentions.js"
+    "test": "make test"
   },
   "dependencies": {
     "hapi": "2.x.x",
