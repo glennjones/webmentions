@@ -1,0 +1,76 @@
+<html>
+
+<form accept-charset="UTF-8" action="http://localhost:3008/webmention/mention/proxy/" method="POST" >
+          <div style="margin:0;padding:0;display:inline"></div>
+          
+          <h4>Parameters</h4>
+          <table class="fullwidth">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px">Parameter</th>
+            <th style="width: 310px; max-width: 310px">Value</th>
+            <th style="width: 200px; max-width: 200px">Description</th>
+            <th style="width: 100px; max-width: 100px">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required">source</td>
+<td>
+	
+		
+			
+				<input class="parameter required" minlength="1" name="source" placeholder="(required)" type="text" value="">
+			
+		
+	
+</td>
+<td>
+	<strong>the url of the comment</strong>
+</td>
+<td>payload</td>
+<td><span class="model-signature">string</span></td>
+</tr><tr><td class="code required">target</td>
+<td>
+	
+		
+			
+				<input class="parameter required" minlength="1" name="target" placeholder="(required)" type="text" value="">
+			
+		
+	
+</td>
+<td>
+	<strong>the url of the entry been commented on</strong>
+</td>
+<td>payload</td>
+<td><span class="model-signature">string</span></td>
+</tr><tr><td class="code">proxy</td>
+<td>
+
+	
+		
+			<input class="parameter" minlength="0" name="proxy" placeholder="" type="text" value="">
+		
+	
+
+</td>
+<td>(Not part of the standard) a proxy url for the target where the webmention is pass on to another system</td>
+<td>payload</td>
+<td>
+	<span class="model-signature">string</span>
+</td>
+</tr></tbody>
+          </table>
+          
+          
+          
+
+            <input  type="submit" value="Try it out!">
+
+          
+        </form>
+
+
+        </html>
