@@ -100,15 +100,11 @@ The response is returned in the following format:
       "isValid": true,
       "matchedWith": "in-reply-to string",
       "target": {
-        "url": [
-          "http://example.com/notes/2014-02-02-1"
-        ],
+        "url": "http://example.com/notes/2014-02-02-1",
         "endpoint": "http://example.com/webmention"
       },
       "source": {
-        "url": [
-          "http://example.com/notes/2014-02-03-1"
-        ],
+        "url": "http://example.com/notes/2014-02-03-1",
         "links": [
           "http://example.com/articles",
           "http://example.com/notes",
