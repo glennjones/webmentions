@@ -30,6 +30,24 @@ var serverOptions = {
 var server = hapi.createServer(config.server.host, config.server.port, serverOptions);
 
 server.route(routes.routes);
+server.ext('onPreResponse', function (request, reply) {
+
+    var response = request.response;
+    console.log('request',request.info.host, request.path, request.payload, request.querystring);
+    if (!response.isBoom) {
+        return reply();
+    }else{
+        console.error('error',response);
+        return reply();
+    }
+/*
+    // Replace error with friendly HTML
+    var error = response;
+    var ctx = {
+        message: (error.output.statusCode === 404 ? 'page not found' : 'something went wrong')
+    };
+    reply.view('error', ctx);*/
+});
 
 
 server.start(function(){
