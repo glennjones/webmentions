@@ -1,7 +1,7 @@
 {
   "name": "webmentions",
   "author": "Glenn Jones",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An API of helper function for providing and consuming webmentions",
   "keywords": [
     "webmention",
