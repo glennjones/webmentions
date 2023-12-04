@@ -1,5 +1,9 @@
 ## An API of helper functions for consuming webmentions
 
+__This is a 9-year-old historical project - It is left up as an archive.__
+
+
+
 [Webmentions](http://indiewebcamp.com/webmention) are an interesting method of notify another site that a comment/post on your own site is written in response to a post on their site. The site receiving the webmention notification can then verify the request and gather the message adding into a conversation flow in their post. You can read more about webmention on the  [indiewebcamp](http://indiewebcamp.com/) site.
 
 This node module provides a number of functions that will help you add the ability to consumes webmentions to your site
